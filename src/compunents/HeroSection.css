@@ -1,0 +1,32 @@
+/* HeroSection.css */
+/* ปรับระยะห่างด้านล่างสำหรับ hero-text เพื่อไม่ให้ติดกับปุ่ม */
+.hero-text {
+  margin-bottom: 20px; /* ปรับระยะห่างตามที่ต้องการ */
+}
+
+/* ปรับปุ่มให้กึ่งกลางในแนวนอน และมีสีพื้นหลังเป็นสีเหลือง */
+.load-more-button {
+  background-color: #ffeebd; /* สีเหลือง */
+  color: #222; /* สีข้อความ */
+  border: none; /* ไม่มีเส้นขอบ */
+  display: block; /* ใช้ block สำหรับการจัดกลาง */
+  margin: 20px auto; /* จัดกลางปุ่ม */
+  padding: 10px 20px; /* ระยะห่างภายในปุ่ม */
+}
+
+/* ปรับขนาดภาพให้เหมาะสมเมื่อหน้าจอมีขนาดเล็กลง */
+@media (max-width: 768px) {
+  .hero-image {
+    max-width: 100%;
+    max-height: none; /* อนุญาตให้รูปภาพขยายได้เต็มความสูง */
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-text h1, .hero-text h4 {
+    font-size: smaller; /* ขนาดตัวอักษรเล็กลงเพื่อความเหมาะสมกับหน้าจอ */
+  }
+  .load-more-button {
+    padding: 8px 16px; /* ปรับขนาดปุ่มให้เล็กลง */
+  }
+}

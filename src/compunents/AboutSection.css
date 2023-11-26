@@ -1,0 +1,33 @@
+.about-section {
+    /* ทำให้ sure ว่าส่วน About มี padding และ margin ที่เหมาะสม */
+    padding: 3rem 0;
+  }
+  
+  .about-title {
+    /* ตั้งค่าหัวข้อให้มีขนาดใหญ่และจัดกลาง */
+    font-size: 2.5rem;
+    margin-bottom: 2rem; /* ระยะห่างจากหัวข้อไปยังเนื้อหาด้านล่าง */
+  }
+  
+  /* ตั้งค่าสำหรับปุ่มเพิ่มเติม */
+  .about-section .btn-outline-dark {
+    border-color: #333; /* สีขอบของปุ่ม */
+    color: #333; /* สีตัวหนังสือของปุ่ม */
+  }
+  
+  .about-section .btn-outline-dark:hover {
+    background-color: #333; /* สีพื้นหลังของปุ่มเมื่อโฮเวอร์ */
+    color: #fff; /* สีตัวหนังสือของปุ่มเมื่อโฮเวอร์ */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 767px) {
+    .about-section {
+      padding: 1rem 0; /* ลด padding สำหรับหน้าจอขนาดเล็ก */
+    }
+  
+    .about-title {
+      font-size: 2rem; /* ลดขนาดตัวหนังสือสำหรับหน้าจอขนาดเล็ก */
+    }
+  }
+  

@@ -1,0 +1,48 @@
+.bg-cream {
+  background-color: #f5f5dc; /* สีครีม */
+}
+
+h2, h3 {
+  color: #333; /* สีของข้อความ */
+}
+
+h2 {
+  padding-top: 20px; /* ระยะห่างด้านบนสำหรับ h2 */
+}
+
+h3 {
+  padding-bottom: 20px; /* ระยะห่างด้านล่างสำหรับ h3 */
+}
+
+/* ปรับระยะห่างระหว่างรายการบริการ */
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* สไตล์สำหรับข้อความราคาสำหรับหน้าจอขนาดเล็ก */
+.text-sm-end {
+  text-align: end;
+}
+
+/* ปรับการแสดงผลสำหรับหน้าจอขนาดใหญ่ */
+@media (min-width: 768px) {
+  .ps-4 {
+    padding-left: 1.5rem; /* ระยะห่างขอบจอสำหรับหน้าจอขนาดใหญ่ */
+  }
+}
+
+/* ให้ตารางและเนื้อหาทั้งหมดจัดกลางบนหน้าจอขนาดเล็ก */
+@media (max-width: 767px) {
+  .pricing-header,
+  .px-3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* ปรับขนาดและความหนาของตัวหนังสือ */
+.service-description, .service-price {
+  font-size: 1.25rem; /* ขนาดตัวหนังสือใหญ่ขึ้น */
+  font-weight: bold; /* ตัวหนังสือหนาขึ้น */
+}

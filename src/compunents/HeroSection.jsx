@@ -14,7 +14,7 @@ const HeroSection = () => {
           <h1>DENTAL CLINIC </h1>
           <h4>Lorem ipsum dolor sit amet </h4>
           <h4>consectetur.</h4>
-          <Button className="load-more-button mx-auto">LOAD MORE</Button>
+          <Button variant="outline-dark">LOAD MORE</Button>
         </Col>
         <Col xs={12} md={5} className="my-3 my-md-0">
           <Image src={heroImageSrc} alt="Dentist at work" className="img-fluid hero-image" />

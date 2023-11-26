@@ -9,7 +9,7 @@ const TeamSection = () => {
 
   return (
     <Container className="my-5 text-center">
-      <h2 className="mb-4">ทีมงานของเรา</h2>
+      <h2 className="mb-4">ทีมทันตกรรม</h2>
       <Row>
         {teamMembers.map((member, index) => (
           <Col key={index} xs={12} sm={6} md={4} lg={6} className="mb-4 d-flex align-items-center justify-content-center">

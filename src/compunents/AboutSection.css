@@ -1,6 +1,7 @@
 .about-section {
     /* ทำให้ sure ว่าส่วน About มี padding และ margin ที่เหมาะสม */
-    padding: 3rem 0;
+    
+    overflow: hidden;
   }
   
   .about-title {

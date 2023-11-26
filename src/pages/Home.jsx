@@ -2,7 +2,7 @@ import React from 'react'
 import HeroSection from '../compunents/HeroSection'
 import PricingSection from '../compunents/PricingSection'
 import ServicesSection from '../compunents/ServicesSection'
-import AboutUsHeroSection from '../compunents/AboutUsHeroSection'
+import AboutUsSection from '../compunents/AboutSection'
 import TeamSection from '../compunents/TeamSection'
 import ContactSection from '../compunents/ContactSection'
 
@@ -13,7 +13,7 @@ function Home() {
        <HeroSection />
        <ServicesSection />
        <PricingSection />
-       <AboutUsHeroSection />
+       <AboutUsSection />
        <TeamSection />
        <ContactSection />
         

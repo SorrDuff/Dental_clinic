@@ -4,7 +4,7 @@ import './AboutSection.css'; // ตรวจสอบว่าได้นำเ
 
 const AboutSection = () => {
   return (
-    <Container className="about-section my-5 text-center">
+    <Container className="px-3 about-section my-5 text-center">
       <Row>
         <Col xs={12}>
           <h2 className="about-title">ABOUT US</h2>

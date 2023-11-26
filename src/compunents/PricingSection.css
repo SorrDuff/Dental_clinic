@@ -42,7 +42,4 @@ h3 {
 }
 
 /* ปรับขนาดและความหนาของตัวหนังสือ */
-.service-description, .service-price {
-  font-size: 1.25rem; /* ขนาดตัวหนังสือใหญ่ขึ้น */
-  font-weight: bold; /* ตัวหนังสือหนาขึ้น */
-}
+/*  */

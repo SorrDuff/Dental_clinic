@@ -6,7 +6,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const FooterSection = () => {
   return (
-    <footer className="footer-section" style={{ backgroundColor: '#4a473e', color: '#fff' }}>
+    <footer className="py-3 footer-section" style={{ backgroundColor: '#4a473e', color: '#fff' }}>
       <Container>
         <Row>
           <Col md={4} sm={12}>
@@ -18,19 +18,18 @@ const FooterSection = () => {
           <Col md={4} sm={12}>
             <h4>บริการของเรา</h4>
             <ul className="list-unstyled">
-              <li>จัดฟัน</li>
-              <li>ทำฟัน</li>
-              <li>ถอนฟัน</li>
-              <li>ทำความสะอาดฟัน</li>
-              <li>รักษารากฟัน</li>
-              <li>เคลือบฟัน</li>
+              <li>จัดฟัน    ฟันคุด ฟันฝัง</li>
+              <li>รักษาราก   รากฟันเทียม</li>
+              <li>ครอบฟัน    วิเนียร์</li>
+              <li>ขูดหินปูน  อุดฟัน ถอนฟัน</li>
+             
             </ul>
           </Col>
           <Col md={4} sm={12}>
-            <h4>ติดต่อทางสังคม</h4>
-            <p><FontAwesomeIcon icon={faFacebook} /> Facebook DOCTORYANYONG</p>
-            <p><FontAwesomeIcon icon={faPhone} /> Call 044-255945</p>
-            <p><FontAwesomeIcon icon={faLine} /> Line @478xtkb</p>
+            <h4>ช่องทางการติดต่อ</h4>
+            <p><FontAwesomeIcon icon={faFacebook} /> DOCTORYANYONG</p>
+            <p><FontAwesomeIcon icon={faPhone} /> 044-255945</p>
+            <p><FontAwesomeIcon icon={faLine} /> @478xtkb</p>
           </Col>
         </Row>
       </Container>

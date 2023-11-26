@@ -1,0 +1,9 @@
+.load-more-button {
+    background-color: #ffde7a; /* สีเหลือง */
+    color: #222; /* สีข้อความ */
+    border: none; /* ไม่มีเส้นขอบ */
+    display: block; /* ใช้ block สำหรับการจัดกลาง */
+    margin: 20px auto; /* จัดกลางปุ่ม */
+    padding: 10px 20px; /* ระยะห่างภายในปุ่ม */
+  }
+  
